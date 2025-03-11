@@ -1,0 +1,7 @@
+.navbar-brand img{
+    width: 25%;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
