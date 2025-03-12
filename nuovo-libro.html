@@ -53,11 +53,13 @@
         </nav>
     </header>
     <main>
+        <!-- form -->
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <h1>Nuovo Libro</h1>
                     <form>
+                        <!-- nome -->
                         <div class="row">
                             <div class="col-5">
                                 <div class="mb-3">
@@ -66,6 +68,7 @@
                                   <div id="emailHelp" class="form-text"></div>
                                 </div>
                             </div>
+                            <!-- cognome -->
                             <div class="col-5">
                                 <div class="mb-3">
                                   <label for="exampleInputPassword1" class="form-label">Cognome Autore</label>
@@ -73,9 +76,26 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Titolo -->
+                        <div class="row">
+                            <div class="col-12">                          
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Titolo</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Inserisci il titolo del libro">
+                                    <div id="emailHelp" class="form-text">Titolo versione italiana</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Genere -->
                         <div class="row">
                             <div class="col-12">
-                                
+                                <label for="inputState" class="form-label">Genere</label>
+                                <select id="inputState" class="form-select">
+                                  <option selected>Scegli il genere</option>
+                                  <option>Uomo</option>
+                                  <option>Donna</option>
+                                  <option>Altro</option>
+                                </select>
                             </div>
                         </div>
                     </form>
